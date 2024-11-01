@@ -19,3 +19,32 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-color: rgba(128, 0, 128, 0.9); /* Dark purple */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  transition: transform 0.1s ease;
+}
+
+/* Trail styling */
+.custom-cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(128, 0, 128, 0.5); /* Lighter purple */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.1s ease, transform 0.1s ease;
+  z-index: 999;
+}
