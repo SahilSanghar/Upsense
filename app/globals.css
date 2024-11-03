@@ -20,6 +20,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 .circle {
   height: 24px;
   width: 24px;

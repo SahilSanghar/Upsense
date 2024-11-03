@@ -25,12 +25,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full">
       {/* Background Gradient Animation */}
       <BackgroundGradientAnimation>
         {/* Main Hero Section */}
         <div
-          className={`absolute inset-0 flex items-center justify-between bg-cover bg-center bg-no-repeat h-[100vh] md:h-[80vh] lg:h-[70vh] xl:h-[60vh]`}
+          className={`absolute inset-0 flex items-center justify-between bg-cover bg-center bg-no-repeat`}
           style={{
             backgroundImage: "url('/hero-image.jpg')"
           }}

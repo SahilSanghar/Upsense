@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
 return (
-    <div className="h-[50vh] -mt-10 -z-10 pt-[80px] bg-slate-500 text-black">
+    <div className="h-[50vh] -mt-10 -z-10 pt-[80px] bg-slate-300 text-black">
       {/* First row */}
     <div className=" grid grid-cols-4 gap-4 mb-4">
         <div className="p-4 rounded">
@@ -77,7 +77,7 @@ return (
     </div>
 
       {/* Second row */}
-    <div className="bg-zinc-600 h-[12vh] -mt-8 grid grid-cols-4 gap-4">
+    <div className="bg-slate-400 h-[12vh] grid grid-cols-4 gap-4">
         <div className="p-4 rounded">UPSENSE PTE LTD .2024</div>
         <div className="p-4 rounded">
             <p className="">

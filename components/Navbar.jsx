@@ -9,8 +9,8 @@ const Navbar = ({ className }) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-5 lg:w-[900px] lg:mx-[50px] z-50 backdrop-blur-md bg-opacity-50 bg-zinc-400 text-white rounded-full shadow-md">
-      <div className="md:w-[800px] lg:w-[900px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <nav className="fixed top-5 lg:w-[900px] xl:w-[92%] lg:mx-[50px] z-50 backdrop-blur-md bg-opacity-50 bg-zinc-400 text-white rounded-full shadow-md">
+      <div className="md:w-[800px] lg:w-[900px] xl:w-[92%] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="text-xl font-bold">
           <Image src='/logo.jpg' alt='Logo' height={50} width={50} className='w-[80px] h-[80px]' />
